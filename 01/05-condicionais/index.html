@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title>JS</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script>
+//            function retornaSexo(sexo) {
+//                if (sexo === "m"){
+//                    return "Masculino";
+//                } else if (sexo === "f") {
+//                    return "Feminino";
+ //               } else {
+ //                   return "Outro";
+ //               }
+ //               return resultado;
+ //           }
+            function retornaSexo(sexo) {
+                switch(sexo){
+                    case "m": return "Masculino";
+                    case "f": return "Feminino";
+                    default: return "Não definido";
+                }
+            }
+            sexo = retornaSexo("f");
+            console.log(sexo);
+        </script>
+    </body>
+</html>

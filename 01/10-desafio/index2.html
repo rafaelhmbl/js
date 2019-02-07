@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title>JS</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script>
+            function pares(x, y) {
+                var totalPares = 0;
+                for (var i = x; i <= y; i++ ){
+                    if (i % 2 === 0){
+                        console.log('Número par encontrado entre ' + x + ' e ' + y + ' :' + i);
+                        totalPares++;
+                    }
+                }                
+                console.log('Total de números pares encontrados entre ' + x + ' e ' + y + ' :' + totalPares);
+            }
+            pares(2,13);
+        </script>
+    </body>
+</html>
